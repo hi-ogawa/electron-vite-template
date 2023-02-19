@@ -1,5 +1,5 @@
 {
-  "name": "electron-vite-experiment",
+  "name": "electron-vite-template",
   "version": "0.0.0",
   "main": "./dist/main/index.js",
   "scripts": {
