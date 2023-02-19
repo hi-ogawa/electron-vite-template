@@ -1,6 +1,6 @@
-# electron-vite-experiment
+# electron-vite-template
 
-Fiddling with electron and vite. Basic ideas are from https://github.com/cawa-93/vite-electron-builder.
+template for electron app with [Vite](https://github.com/vitejs/vite) and [Comlink](https://github.com/GoogleChromeLabs/comlink)-based IPC.
 
 ```sh
 # development
@@ -13,8 +13,4 @@ pnpm package
 ./dist/package/electron-vite-experiment-0.0.0.AppImage
 ```
 
-![image](https://user-images.githubusercontent.com/4232207/190849029-d6f91f8d-b419-4fbd-934f-4d03585c29d5.png)
-
-## examples
-
-- https://github.com/hi-ogawa/toy-process-manager
+![image](https://user-images.githubusercontent.com/4232207/219933030-8b2f70a9-775f-47ce-86f1-38bd3e97a04e.png)

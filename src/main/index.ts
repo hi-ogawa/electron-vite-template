@@ -32,9 +32,9 @@ function setupService() {
 /** instantiate renderer */
 async function createWindow(i: number) {
   const window = new BrowserWindow({
-    x: 500 * (i + 1),
+    x: 300 * (i + 1),
     y: 300,
-    width: 500,
+    width: 300,
     height: 300,
     webPreferences: {
       preload: PRELOAD_PATH,
