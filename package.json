@@ -20,7 +20,7 @@
     "lint:prettier": "prettier --write --cache .",
     "lint-check": "run-s lint-check:*",
     "lint-check:eslint": "eslint . --cache --cache-location node_modules/.cache/.eslintcache --ext .js,.jsx,.ts,.tsx",
-    "lint-check:check": "prettier --check --check ."
+    "lint-check:prettier": "prettier --check --cache ."
   },
   "devDependencies": {
     "@hiogawa/utils": "^1.0.3",
